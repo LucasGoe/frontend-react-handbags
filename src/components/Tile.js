@@ -8,9 +8,7 @@ function Tile({ title, children, image, alternative_text }) {
             {children}
             <img src={image} alt={alternative_text}/>
         </section>
-
     );
 };
-
 
 export default Tile;

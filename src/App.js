@@ -10,7 +10,6 @@ import brand from './assets/brand.png';
 import our_story from './assets/our_story.png';
 import './App.css';
 
-
 function App() {
   return (
       <>
@@ -20,42 +19,33 @@ function App() {
           <Button title={"shop all bags"} disabled={false}/>
           <Button title={"pre-orders"} disabled={true}/>
       </nav>
-
-
           <main>
-
               <Product
                   title={"Best seller"}
                   image={bag1}
                   description={"The handy bag"}
                   price={400}
               />
-
               <Product
                   title={"Best seller"}
                   image={bag2}
                   description={"The stylish bag"}
                   price={250}
               />
-
               <Product
                   title={"Best seller"}
                   image={bag3}
                   description={"The simple bag"}
                   price={250}
               />
-
               <Product
                   title={"Best seller"}
                   image={bag4}
                   description={"The trendy bag"}
                   price={250}
               />
-
           </main>
-
           <footer>
-
               <Tile title={"The brand"}>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid doloribus ipsum nihil
                       nisi nostrum placeat porro quo repellendus sapiente sed!
@@ -63,7 +53,6 @@ function App() {
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam labore laborum libero
                       maxime officiis perspiciatis velit voluptatibus voluptatum. Dignissimos
                   </p>
-                  >
               </Tile>
               <Tile
                   image= {brand}
@@ -81,11 +70,8 @@ function App() {
                       repudiandae sed similique, vitae voluptatem voluptates
                   </p>
               </Tile>
-
           </footer>
-
       </>
-
   );
 }
 

@@ -7,5 +7,4 @@ function Button({ title, disabled }) {
     );
 };
 
-
 export default Button;
